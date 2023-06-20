@@ -43,10 +43,11 @@ To run the Movie Search App, you need to have the following installed on your ma
    ```bash
 
    # For iOS
-   npx react-native run-ios
+   yarn react-native run-ios
+   cd ios && pod install
 
    # For Android
-   npx react-native run-android
+   yarn react-native run-android
    ```
 
    Make sure you have the Android/iOS Emulator running or your physical device connected.
